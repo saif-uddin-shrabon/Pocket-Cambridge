@@ -14,12 +14,12 @@ android {
         minSdk = 25
         targetSdk = 34
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
 
-        archivesName.set("IPTV-v${versionName}(${versionCode})" + ".apk")
+        archivesName.set("PocketCambridge-v${versionName}(${versionCode})")
     }
 
     buildTypes {
